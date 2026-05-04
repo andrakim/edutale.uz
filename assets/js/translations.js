@@ -12,6 +12,8 @@ window.QALDIRGOCH_TRANSLATIONS = {
       home: "Главная",
       about: "История",
       project: "Форматы",
+      audio: "Аудио",
+      video: "Видео",
       goal: "Идея",
       gallery: "Ценности"
     },
@@ -84,6 +86,79 @@ window.QALDIRGOCH_TRANSLATIONS = {
         listThree: "готовая база для широкого внедрения"
       }
     },
+    audio: {
+      pageTitle: "QALDIRG'OCH — Аудио",
+      metaDescription: "Аудиораздел QALDIRG'OCH: демоверсия будущего интерфейса прослушивания. Скоро.",
+      back: "Назад к проекту",
+      eyebrow: "Аудио",
+      title: "Голосовая версия проекта готовится как отдельное пространство для прослушивания историй",
+      text: "В этом разделе позже появятся озвученные эпизоды, дорожки на нескольких языках и удобный доступ к аудиосопровождению книг.",
+      tag: "Аудиораздел",
+      soon: "Скоро",
+      soonText: "Здесь появятся первые записи для прослушивания вместе с книгами.",
+      aria: "Аудиораздел скоро откроется",
+      demo: {
+        eyebrow: "Демо функционала",
+        title: "Так будет выглядеть аудиотека проекта",
+        text: "Можно переключить демо-треки и посмотреть будущую логику плеера. Реальные записи появятся позже.",
+        state: "Демо интерфейса",
+        now: "Сейчас выбрано",
+        previous: "Предыдущий трек",
+        play: "Запустить демо",
+        next: "Следующий трек",
+        playlist: "Будущий плейлист",
+        note: "Черновая структура",
+        tracks: {
+          trackOne: {
+            title: "Весенняя история",
+            meta: "Русская дорожка · 03:20"
+          },
+          trackTwo: {
+            title: "Голос Мадины",
+            meta: "Узбекская дорожка · 02:45"
+          },
+          trackThree: {
+            title: "Пять языков",
+            meta: "Мультиязычный фрагмент · 01:50"
+          }
+        }
+      }
+    },
+    video: {
+      pageTitle: "QALDIRG'OCH — Видео",
+      metaDescription: "Видеораздел QALDIRG'OCH: демоверсия будущей видеотеки и анимационных эпизодов. Скоро.",
+      back: "Назад к проекту",
+      eyebrow: "Видео",
+      title: "Видеораздел станет витриной анимационных эпизодов и визуальных материалов",
+      text: "Пока ролики готовятся, раздел работает как аккуратный анонс будущей видеобиблиотеки проекта QALDIRG'OCH.",
+      tag: "Видеораздел",
+      soon: "Скоро",
+      soonText: "Здесь появятся анимационные сцены, тизеры и короткие видеовыпуски.",
+      aria: "Видеораздел скоро откроется",
+      demo: {
+        eyebrow: "Демо функционала",
+        title: "Так будет выглядеть будущая видеотека",
+        text: "Можно переключить демо-эпизоды и увидеть логику превью. Реальные видео появятся позже.",
+        state: "Демо витрины",
+        play: "Запустить демо",
+        playlist: "Будущие видео",
+        note: "Черновая структура",
+        episodes: {
+          episodeOne: {
+            title: "Анимационный эпизод 01",
+            meta: "Черновое превью · 02:40"
+          },
+          episodeTwo: {
+            title: "Тизер героев",
+            meta: "Демо-сцена · 01:15"
+          },
+          episodeThree: {
+            title: "Мир QALDIRG'OCH",
+            meta: "Визуальный фрагмент · 01:50"
+          }
+        }
+      }
+    },
     idea: {
       eyebrow: "Идея",
       title: "Главная идея проекта — мягко прививать детям правильные ориентиры через короткие истории и ясные эмоции",
@@ -139,6 +214,8 @@ window.QALDIRGOCH_TRANSLATIONS = {
       home: "Home",
       about: "Story",
       project: "Formats",
+      audio: "Audio",
+      video: "Video",
       goal: "Concept",
       gallery: "Values"
     },
@@ -211,6 +288,79 @@ window.QALDIRGOCH_TRANSLATIONS = {
         listThree: "a ready foundation for broader implementation"
       }
     },
+    audio: {
+      pageTitle: "QALDIRG'OCH — Audio",
+      metaDescription: "QALDIRG'OCH audio section: demo of the future listening interface. Coming soon.",
+      back: "Back to project",
+      eyebrow: "Audio",
+      title: "The voice version is being prepared as a dedicated space for listening to the stories",
+      text: "This section will later include narrated episodes, multilingual tracks, and easy access to audio support for the books.",
+      tag: "Audio section",
+      soon: "Coming soon",
+      soonText: "The first listening tracks for the books will appear here.",
+      aria: "Audio section coming soon",
+      demo: {
+        eyebrow: "Feature demo",
+        title: "This is how the project audio library will feel",
+        text: "Switch between demo tracks and preview the future player logic. Real recordings will be added later.",
+        state: "Interface demo",
+        now: "Now selected",
+        previous: "Previous track",
+        play: "Start demo",
+        next: "Next track",
+        playlist: "Future playlist",
+        note: "Draft structure",
+        tracks: {
+          trackOne: {
+            title: "Spring story",
+            meta: "Russian track · 03:20"
+          },
+          trackTwo: {
+            title: "Madina's voice",
+            meta: "Uzbek track · 02:45"
+          },
+          trackThree: {
+            title: "Five languages",
+            meta: "Multilingual fragment · 01:50"
+          }
+        }
+      }
+    },
+    video: {
+      pageTitle: "QALDIRG'OCH — Video",
+      metaDescription: "QALDIRG'OCH video section: demo of the future video library and animated episodes. Coming soon.",
+      back: "Back to project",
+      eyebrow: "Video",
+      title: "The video section will showcase animated episodes and visual materials",
+      text: "While the clips are in production, this section serves as a calm preview of the future QALDIRG'OCH video library.",
+      tag: "Video section",
+      soon: "Coming soon",
+      soonText: "Animated scenes, teasers, and short video releases will appear here.",
+      aria: "Video section coming soon",
+      demo: {
+        eyebrow: "Feature demo",
+        title: "This is how the future video library will feel",
+        text: "Switch between demo episodes and preview the future video browsing logic. Real videos will be added later.",
+        state: "Showcase demo",
+        play: "Start demo",
+        playlist: "Future videos",
+        note: "Draft structure",
+        episodes: {
+          episodeOne: {
+            title: "Animated episode 01",
+            meta: "Draft preview · 02:40"
+          },
+          episodeTwo: {
+            title: "Character teaser",
+            meta: "Demo scene · 01:15"
+          },
+          episodeThree: {
+            title: "World of QALDIRG'OCH",
+            meta: "Visual fragment · 01:50"
+          }
+        }
+      }
+    },
     idea: {
       eyebrow: "Concept",
       title: "The central idea of the project is to gently shape children's values through short stories and clear emotional experiences",
@@ -266,6 +416,8 @@ window.QALDIRGOCH_TRANSLATIONS = {
       home: "홈",
       about: "스토리",
       project: "형식",
+      audio: "오디오",
+      video: "비디오",
       goal: "콘셉트",
       gallery: "가치"
     },
@@ -336,6 +488,79 @@ window.QALDIRGOCH_TRANSLATIONS = {
         listOne: "우즈베크어, 러시아어, 카라칼팍어, 한국어, 영어",
         listTwo: "음성 연기는 아이가 이야기를 더 깊이 체험하도록 돕습니다",
         listThree: "넓은 도입을 위한 준비된 기반"
+      }
+    },
+    audio: {
+      pageTitle: "QALDIRG'OCH — 오디오",
+      metaDescription: "QALDIRG'OCH 오디오 섹션: 향후 청취 인터페이스의 데모입니다. 곧 공개됩니다.",
+      back: "프로젝트로 돌아가기",
+      eyebrow: "오디오",
+      title: "음성 버전은 이야기를 들을 수 있는 별도 공간으로 준비되고 있습니다",
+      text: "이 섹션에는 추후 음성 에피소드, 여러 언어의 트랙, 책과 연결되는 오디오 자료가 추가될 예정입니다.",
+      tag: "오디오 섹션",
+      soon: "곧 공개",
+      soonText: "책과 함께 들을 수 있는 첫 번째 오디오 자료가 이곳에 올라옵니다.",
+      aria: "오디오 섹션 곧 공개",
+      demo: {
+        eyebrow: "기능 데모",
+        title: "프로젝트 오디오 라이브러리는 이런 형태로 제공됩니다",
+        text: "데모 트랙을 전환하며 향후 플레이어 구조를 미리 볼 수 있습니다. 실제 녹음은 추후 추가됩니다.",
+        state: "인터페이스 데모",
+        now: "현재 선택",
+        previous: "이전 트랙",
+        play: "데모 시작",
+        next: "다음 트랙",
+        playlist: "향후 플레이리스트",
+        note: "초안 구조",
+        tracks: {
+          trackOne: {
+            title: "봄 이야기",
+            meta: "러시아어 트랙 · 03:20"
+          },
+          trackTwo: {
+            title: "마디나의 목소리",
+            meta: "우즈베크어 트랙 · 02:45"
+          },
+          trackThree: {
+            title: "다섯 가지 언어",
+            meta: "다국어 프래그먼트 · 01:50"
+          }
+        }
+      }
+    },
+    video: {
+      pageTitle: "QALDIRG'OCH — 비디오",
+      metaDescription: "QALDIRG'OCH 비디오 섹션: 향후 비디오 라이브러리와 애니메이션 에피소드의 데모입니다. 곧 공개됩니다.",
+      back: "프로젝트로 돌아가기",
+      eyebrow: "비디오",
+      title: "비디오 섹션은 애니메이션 에피소드와 시각 자료를 보여 주는 공간이 됩니다",
+      text: "영상이 준비되는 동안 이 섹션은 QALDIRG'OCH의 향후 비디오 라이브러리를 알리는 공간으로 운영됩니다.",
+      tag: "비디오 섹션",
+      soon: "곧 공개",
+      soonText: "애니메이션 장면, 티저, 짧은 영상 콘텐츠가 이곳에 올라옵니다.",
+      aria: "비디오 섹션 곧 공개",
+      demo: {
+        eyebrow: "기능 데모",
+        title: "향후 비디오 라이브러리는 이런 형태로 제공됩니다",
+        text: "데모 에피소드를 전환하며 향후 비디오 탐색 구조를 미리 볼 수 있습니다. 실제 영상은 추후 추가됩니다.",
+        state: "쇼케이스 데모",
+        play: "데모 시작",
+        playlist: "향후 비디오",
+        note: "초안 구조",
+        episodes: {
+          episodeOne: {
+            title: "애니메이션 에피소드 01",
+            meta: "초안 프리뷰 · 02:40"
+          },
+          episodeTwo: {
+            title: "캐릭터 티저",
+            meta: "데모 장면 · 01:15"
+          },
+          episodeThree: {
+            title: "QALDIRG'OCH의 세계",
+            meta: "시각 프래그먼트 · 01:50"
+          }
+        }
       }
     },
     idea: {

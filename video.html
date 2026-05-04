@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta id="pageDescription" name="description" content="Видеораздел QALDIRG'OCH: демоверсия будущей видеотеки и анимационных эпизодов. Скоро." />
+  <title>QALDIRG'OCH — Видео</title>
+  <link rel="icon" type="image/png" href="assets/images/Logo_avlod.png" />
+  <link rel="apple-touch-icon" href="assets/images/Logo_avlod.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="video" data-page-title-key="video.pageTitle" data-page-description-key="video.metaDescription">
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a class="brand" href="index.html#home" data-i18n-aria-label="aria.home" aria-label="На главную">
+        <span class="brand-mark">
+          <img src="assets/images/Logo_avlod.png" alt="" />
+        </span>
+        <span class="brand-name" id="brandName">edutale.uz</span>
+      </a>
+
+      <div class="header-controls">
+        <nav class="nav" id="mainNav">
+          <a href="index.html#home" data-nav-page="home" data-i18n="nav.home">Главная</a>
+          <a href="index.html#about" data-i18n="nav.about">История</a>
+          <a href="index.html#project" data-i18n="nav.project">Форматы</a>
+          <a href="audio.html" data-nav-page="audio" data-i18n="nav.audio">Аудио</a>
+          <a href="video.html" data-nav-page="video" data-i18n="nav.video">Видео</a>
+          <a href="index.html#goal" data-i18n="nav.goal">Идея</a>
+          <a href="index.html#gallery" data-i18n="nav.gallery">Ценности</a>
+        </nav>
+
+        <div class="lang-switcher" data-i18n-aria-label="aria.languageSwitcher" aria-label="Переключение языка">
+          <button type="button" class="lang-button is-active" data-lang="ru" aria-pressed="true">RU</button>
+          <button type="button" class="lang-button" data-lang="en" aria-pressed="false">EN</button>
+          <button type="button" class="lang-button" data-lang="ko" aria-pressed="false">KO</button>
+        </div>
+      </div>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        data-i18n="menu.toggle"
+        data-i18n-aria-label="aria.menu"
+      >Меню</button>
+    </div>
+  </header>
+
+  <main class="demo-page demo-page-video">
+    <section class="demo-hero demo-hero-video" data-asset="videoComingImage">
+      <div class="container demo-hero-grid">
+        <div class="demo-hero-copy">
+          <a class="back-link" href="index.html#project" data-i18n="video.back">Назад к проекту</a>
+          <div class="eyebrow" data-i18n="video.eyebrow">Видео</div>
+          <h1 class="section-title" data-i18n="video.title">Видеораздел станет витриной анимационных эпизодов и визуальных материалов</h1>
+          <p class="section-text" data-i18n="video.text">
+            Пока ролики готовятся, раздел работает как аккуратный анонс будущей видеобиблиотеки проекта QALDIRG'OCH.
+          </p>
+        </div>
+
+        <div class="coming-card page-coming-card" data-asset="videoComingImage" aria-label="Видеораздел скоро откроется" data-i18n-aria-label="video.aria">
+          <div class="coming-content">
+            <span class="media-tag" data-i18n="video.tag">Видеораздел</span>
+            <h2 data-i18n="video.soon">Скоро</h2>
+            <p data-i18n="video.soonText">Здесь появятся анимационные сцены, тизеры и короткие видеовыпуски.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section demo-workspace">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow" data-i18n="video.demo.eyebrow">Демо функционала</div>
+          <h2 class="section-title" data-i18n="video.demo.title">Так будет выглядеть будущая видеотека</h2>
+          <p class="section-text" data-i18n="video.demo.text">Можно переключить демо-эпизоды и увидеть логику превью. Реальные видео появятся позже.</p>
+        </div>
+
+        <div class="demo-shell video-shell" data-demo-panel>
+          <div class="video-preview" data-demo-preview data-asset="videoComingImage">
+            <div class="video-preview-content">
+              <div class="demo-status-row">
+                <span class="demo-state" data-i18n="video.demo.state">Демо витрины</span>
+                <span class="coming-badge" data-i18n="video.soon">Скоро</span>
+              </div>
+              <button class="demo-icon-button demo-icon-button-primary video-play" type="button" data-demo-play aria-label="Запустить демо" data-i18n-aria-label="video.demo.play">▶</button>
+              <strong data-demo-title-output data-i18n="video.demo.episodes.episodeOne.title">Анимационный эпизод 01</strong>
+              <p data-demo-meta-output data-i18n="video.demo.episodes.episodeOne.meta">Черновое превью · 02:40</p>
+              <div class="demo-progress" aria-hidden="true">
+                <span data-demo-progress style="width: 46%"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="demo-list">
+            <div class="demo-list-heading">
+              <strong data-i18n="video.demo.playlist">Будущие видео</strong>
+              <span data-i18n="video.demo.note">Черновая структура</span>
+            </div>
+
+            <button class="demo-option is-active" type="button" data-demo-option data-demo-title-key="video.demo.episodes.episodeOne.title" data-demo-meta-key="video.demo.episodes.episodeOne.meta" data-demo-progress-value="46" data-demo-asset="videoComingImage">
+              <span data-i18n="video.demo.episodes.episodeOne.title">Анимационный эпизод 01</span>
+              <small data-i18n="video.demo.episodes.episodeOne.meta">Черновое превью · 02:40</small>
+            </button>
+            <button class="demo-option" type="button" data-demo-option data-demo-title-key="video.demo.episodes.episodeTwo.title" data-demo-meta-key="video.demo.episodes.episodeTwo.meta" data-demo-progress-value="68" data-demo-asset="videoDemoImage">
+              <span data-i18n="video.demo.episodes.episodeTwo.title">Тизер героев</span>
+              <small data-i18n="video.demo.episodes.episodeTwo.meta">Демо-сцена · 01:15</small>
+            </button>
+            <button class="demo-option" type="button" data-demo-option data-demo-title-key="video.demo.episodes.episodeThree.title" data-demo-meta-key="video.demo.episodes.episodeThree.meta" data-demo-progress-value="30" data-demo-asset="videoAltImage">
+              <span data-i18n="video.demo.episodes.episodeThree.title">Мир QALDIRG'OCH</span>
+              <small data-i18n="video.demo.episodes.episodeThree.meta">Визуальный фрагмент · 01:50</small>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>© <span id="year"></span> <span id="footerProjectName">QALDIRG'OCH</span>. <span data-i18n="footer.rights">Все права защищены.</span></div>
+      <div data-i18n="footer.summary">Образовательный мультимедийный проект: книга, анимация и озвучка в единой системе.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
